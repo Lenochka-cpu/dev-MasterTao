@@ -9,6 +9,7 @@ body {
     background-color: $bg-primary;
     color: $text-color;
     font-family: $font-primary;
+    overflow: hidden;
 }
 
 a {
@@ -101,8 +102,8 @@ ul {
 
 .container {
     max-width: 1170px;
-    padding-right: $container-padding;
-    padding-left: $container-padding;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }

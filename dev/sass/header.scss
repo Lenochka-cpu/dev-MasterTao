@@ -10,13 +10,18 @@ header {
 	  }
   }
 	.btn {
-		padding: 13px 21px;
+		padding: 13px 20px;
+		font-weight: 600;
+		color: #fff;
+		font-size: 15px;
+		line-height: 21.9px;
+	
 	}
 
 
-	.mobile-container {
-		display: flex;
-		width: 100%;
+.mobile-container {
+	display: flex;
+	width: 100%;
 	
 	nav {
 		display: flex;
@@ -27,38 +32,67 @@ header {
 		a {
 			font-weight: 400;
 			color: #fff;
+			font-size: 16px;
+			line-height: 23.36px;
 			text-decoration: none;
+	
 
             &:hover {
 	           color: $color-primary;
            }
 		}
 	 }
-  }
+
+    &.show {
+	    display: flex;
+     }
+
+}
 
 .btn-burger {
-	 margin-left: auto;
+	 margin: 7px 15px 0 auto;
      position: relative;
 	 border: none;
-}
-.btn-burger, 
-.btn-burger:before,
-.btn-burger:after {
-	background: #fff;
+	 width: 27px;
+	 height: 25px;
+	 background-color: transparent;
+	 border-top: 3px solid #fff;
+	 transition: .3s;
+	 
+
+    &:before,
+    &:after {
+	background-color: #fff;
 	height: 2px;
-	width: 28px;
+	width: 27px;
 	display: inline-block;
-}
-.btn-burger:before,
-.btn-burger:after {
+    }
+    &:before,
+    &:after {
 	content: "";
 	position: absolute;
 	left: 0;
-	top: 12px;
+	top: 9px;
+    }
+    &:after {
+	top: 20px;
+    	}
+    &.active {
+		border-color: transparent;
+		&:before {
+			transform: rotate(45deg);
+			left: 2px;
+		}
+		&:after {
+			transform: rotate(-45deg);
+			top: 9px;
+			left: 1px;
+		}
+	}
 }
-.btn-burger:after {
-	top: 24px;
-}
+
+
+
 
 // header{
 // 	&:hover {

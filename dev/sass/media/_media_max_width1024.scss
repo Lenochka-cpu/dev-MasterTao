@@ -2,9 +2,57 @@
     .container {
         padding: 0 20px;
     }
-  
+  header {
+    .container {
+        padding-top: 17px;
+        padding-bottom: 12px;
+    }
+    .logo {
+        max-width: 126px;
+        z-index: 1;
+    }
+  }
     .mobile-container {
        display: none;
+       position: absolute;
+       flex-direction: column;
+       background-color: #363a4d;
+       z-index: 1;
+       left: 0;
+       right: 0;
+       top: 69px;
+       transition: .3s;
+       transform: translate(-100% 0);
+       padding: 37px 40px 60px;
+       box-shadow: 14px 22px 40px #1e234247;
+
+       &.show {
+        transform: translate(0, 0);
+       }
+
+       nav {
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 30px;
+        margin-top: -4px;
+        margin-left: 38px;
+        a {
+            font-size: 24px;
+            padding: 20px 24px;
+        }
+       }
+       .btn {
+        padding: 22px 21px;
+        justify-content: center;
+        max-width: 295px;
+        width: 100%;
+        margin: 0;
+        font-size: 16px;
+        letter-spacing: 0px;
+            }
+
+
+
     }
 
 }
