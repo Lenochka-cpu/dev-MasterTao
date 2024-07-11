@@ -1,8 +1,10 @@
 header {
 	.container {
 	   display: flex;
+	   position: relative;
 	   padding-top: 25px;
 	   padding-bottom: 39px;
+	   z-index: 9;
 	  }
 	  .logo {
 		max-width: 172px;
@@ -49,47 +51,53 @@ header {
 
 }
 
-.btn-burger {
-	 margin: 7px 15px 0 auto;
-     position: relative;
-	 border: none;
-	 width: 27px;
-	 height: 25px;
-	 background-color: transparent;
-	 border-top: 3px solid #fff;
+.hamburger {
+	 display: none;
+	 padding: 7px 0px;
+	 margin: 0 0 auto;
 	 transition: .3s;
-	 
-
-    &:before,
-    &:after {
-	background-color: #fff;
-	height: 2px;
-	width: 27px;
-	display: inline-block;
-    }
-    &:before,
-    &:after {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 9px;
-    }
-    &:after {
-	top: 20px;
-    	}
-    &.active {
-		border-color: transparent;
-		&:before {
-			transform: rotate(45deg);
-			left: 2px;
-		}
-		&:after {
-			transform: rotate(-45deg);
-			top: 9px;
-			left: 1px;
-		}
-	}
 }
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after,
+.hamburger-inner, 
+.hamburger-inner::before,
+.hamburger-inner::after  {
+    background-color: #fff;
+	height: 2.5px;
+	width: 27px;
+}
+    // &:before,
+    // &:after {
+	// background-color: #fff;
+	// height: 2px;
+	// width: 27px;
+	// display: inline-block;
+    // }
+    // &:before,
+    // &:after {
+	// content: "";
+	// position: absolute;
+	// left: 0;
+	// top: 9px;
+    // }
+    // &:after {
+	// top: 20px;
+    // 	}
+    // &.active {
+	// 	border-color: transparent;
+	// 	&:before {
+	// 		transform: rotate(45deg);
+	// 		left: 2px;
+	// 	}
+	// 	&:after {
+	// 		transform: rotate(-45deg);
+	// 		top: 9px;
+	// 		left: 1px;
+	// 	}
+	// }
+
 
 
 

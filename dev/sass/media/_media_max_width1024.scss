@@ -6,6 +6,8 @@
     .container {
         padding-top: 17px;
         padding-bottom: 12px;
+        background-color: #282b38;
+
     }
     .logo {
         max-width: 126px;
@@ -51,8 +53,13 @@
         letter-spacing: 0px;
             }
 
-
-
+    }
+    .hamburger {
+        display: block;
+        margin-left: auto;
+    }
+    body.overflow-hidden:before  {
+        background-color: transparent;
     }
 
 }
