@@ -1,22 +1,32 @@
 .banner {
   .container {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
+    
   }
   &-slider {
+    position: relative;
     height: 700px;
     border-radius: 20px;
   }
+    .btn {
+      padding: 20px 32px;
+    } 
+    
+
 }
 
 .swiper-slide {
   border-radius: 20px;
   display: flex;
   align-items: center;
+  padding: 0 68px;
+  
+  
 
   h1 {
     text-transform: uppercase;
     max-width: 500px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
   h5 {
     max-width: 320px;
@@ -41,11 +51,11 @@
   display: flex;
   justify-content: center;
   gap: 26px;
-  bottom: 43px;
+  bottom: 40px !important;
 }
 .navigation {
   position: absolute;
-  max-width: 1523px;
+  max-width: 1514px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -58,6 +68,7 @@
 .swiper-button-prev, .swiper-button-next {
   position: static;
   color: #fff;
+  width: 40px;
   &:hover {
   color: $color-secondary;
   }
