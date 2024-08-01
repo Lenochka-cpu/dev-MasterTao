@@ -145,7 +145,7 @@ ul {
 [type="radio"] {
     display: none;
 
-    :not([type="radio"]):checked {
+    &:not([type="radio"]):checked {
         +label {
             &:before {
                 content: "";
@@ -163,10 +163,11 @@ ul {
         &:before {
             content: "";
             display: block;
-            background-color: #FFFFFF;
-            border: 1px solid #282B38;
+            background-color: $text-color;
+            border: 1px solid $bg-primary;
             border-radius: 4px;
             width: 24px;
+            min-width: 24px;
             height: 24px;
             margin-right: 9px;
 
@@ -267,7 +268,7 @@ ul {
     font-size: 15px;
     line-height: 146%;
     border-radius: 90px;
-    padding: 13px 17px;
+    padding: 13px 20px;
     display: inline-flex;
     align-items: center;
     letter-spacing: 0.6px;
@@ -317,7 +318,7 @@ ul {
     font-size: 16px;
 
     .icon {
-        margin: 0 -14px 0 47px;
+        margin: 0 -10px 0 35px;
         width: 27px;
         height: 27px;
         transition: .3s;
@@ -428,8 +429,8 @@ ul {
 // }
 
 section {
-    padding: 90px 0 100px;
-    margin-bottom: $section-margin-lg;
+    padding: 0px 0 100px;
+    margin-bottom: 100px;
 
     &.accent {
         position: relative;
@@ -464,7 +465,7 @@ section {
 
 
 .template-title {
-    padding-bottom: 60px;
+    padding-bottom: 52px;
     margin-bottom: 0;
     text-align: center;
     position: relative;
@@ -483,7 +484,7 @@ section {
     h2 {
         font-size: 36px;
         text-transform: uppercase;
-        margin-bottom: 6px;
+        margin-bottom: 4px;
     }
 
     h3 {
@@ -492,19 +493,31 @@ section {
         
     }
 
-    &.half-section {
-        max-width: 600px;
-        width: 100%;
+    &.text-left {
         text-align: left;
-
-        h2:after {
-           
-            width: 100px;
-            height: 2px;
-            background-color: #89C249;
-            margin: 8px 20px;
+        &:after {
+            left: 0;
+            transform: translate(0, 0);
         }
     }
+
+    &.half-section {
+        max-width: 620px;
+        width: 100%;
+        text-align: left;
+        &::after{
+            display: none;
+        }
+        h2:after {
+            content: "";
+            display: inline-block;
+            width: 85px;
+            height: 2px;
+            background-color: $color-secondary;
+            margin: 11px 20px;
+        }
+    }
+
 }
 
 .input-box {
@@ -523,7 +536,7 @@ section {
         font-size: 14px;
         min-height: 56px;
         border: none;
-        transition: .2s;
+        transition: 0.2s;
         width: 100%;
 
         &:focus-visible {
@@ -552,11 +565,12 @@ body.overflow-hidden {
     &:before {
         content: "";
         position: absolute;
-        top: 0;
+        top: 70px;
         left: 0;
         width: 100vw;
         height: 100vh;
         background-color: #0000008c;
         backdrop-filter: blur(4px);
+        z-index: 2;
     }
 }

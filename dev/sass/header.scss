@@ -11,7 +11,7 @@ header {
 		width: 100%;
 	  }
   }
-	.btn {
+.header	.btn {
 		padding: 13px 20px;
 		font-weight: 600;
 		color: #fff;
@@ -48,6 +48,7 @@ header {
 
     &.show {
 	    display: flex;
+		z-index: 2;
      }
 
 }

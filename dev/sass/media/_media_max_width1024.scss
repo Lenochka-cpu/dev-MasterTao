@@ -12,14 +12,13 @@
     }
     .logo {
         max-width: 126px;
-        z-index: 1;
     }
   }
     .mobile-container {
        display: none;
        position: absolute;
        flex-direction: column;
-       background-color: #363a4d;
+       background-color: $bg-secondary;
        z-index: 1;
        left: 0;
        right: 0;
@@ -99,6 +98,9 @@
     }
     h5 {
         font-size: 16px;
+        padding: 0 12px;
+        line-height: 1.4;
+        margin-bottom: 18px;
     }
   }   
 }
