@@ -429,7 +429,7 @@ ul {
 // }
 
 section {
-    padding: 0px 0 100px;
+    padding: 0px 0 $section-margin-lg;
     margin-bottom: 100px;
 
     &.accent {
@@ -442,7 +442,7 @@ section {
             transform: translate(-50%, 0);
             max-width: 1820px;
             width: calc(100% - 30px);
-            top: 0;
+            top: -100px;
             bottom: 0;
             z-index: -1;
             border-radius: 20px;
@@ -477,7 +477,7 @@ section {
         height: 2px;
         background-color: $color-secondary;
         left: 50%;
-        bottom: 47px;
+        bottom: 29px;
         transform: translate(-50%, 0);
     }
 
@@ -504,7 +504,7 @@ section {
     &.half-section {
         max-width: 620px;
         width: 100%;
-        text-align: left;
+        text-align: center;
         &::after{
             display: none;
         }

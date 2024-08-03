@@ -8,7 +8,7 @@
                 <div class="form-column">
                         <div class="input-box">
                             <label for="category">Категория товара:</label>
-                            <input id="category" type="text" placeholder="Категория товара">
+                            <input id="category" type="text" value="12345" placeholder="Категория товара">
                         </div>
                         <div class="input-box">
                             <label for="weight">Вес груза (кг):</label>
@@ -47,8 +47,9 @@
        <div class="form-row">
           <div class="form-column">
               <div class="control-box">
-                  <input id="product photo" type="file">
-                  <label for="product photo">Загрузить фото товара</label>
+                <div class="file-name"></div>
+                  <input id="product-photo" class="custom-file" type="file">
+                  <label for="product-photo">Загрузить фото товара</label>
               </div>
           </div>
       </div>
@@ -59,38 +60,12 @@
             </div>
         </div>
       </div>
-        </form>
+    </form>
+        <img src="assets/img/calculation-decoration.png" class="calculation-decoration" alt="calculation-decoration">
+    </div>
+    </section>
 
-<!-- 
-        <form class="calculation-form">
-            <div class="form-row">
-                <div class="form-column">
-                        <div class="input-box">
-                            <input id="category" type="text">
-                        </div>
-                        <div class="input-box">
-                            <input id="weight" type="number">
-                        </div>
-              
-                        <div class="input-box">
-                            <input id="price" type="number">
-                        </div>
-                        <div class="input-box">
-                            <label for="invoice">Код ТН ВЭД::</label>
-                            <input id="invoice" type="text">
-                        </div>
-                </div>
-            </div>
-            
-      
-      <div class="form-row">
-        <div class="form-column">
-            <div class="control-box">
-                <button type="button" class="btn btn-primary btn-lg">Следующий шаг<img src="assets/img/icon-arrow-left.svg" class="icon" alt="icon"></button>
-            </div>
-        </div>
-      </div>
-        </form> -->
+
 
 
     </div>
