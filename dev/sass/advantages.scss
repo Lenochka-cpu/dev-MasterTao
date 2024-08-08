@@ -1,0 +1,48 @@
+.swiper-pagination-disabled {
+    advantages-swiper-pagination {
+    display: none;
+  }
+}
+
+.template-title .case{
+    padding-top: 50px;
+    h2{
+        margin-bottom: -4px;
+    }
+}
+.advantage {
+    max-width: 263px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+} 
+.advantages {
+    &-img {
+    width: 113px;
+    height: 113px;
+    border: 1px solid #6C7188;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 22px;
+
+     img {
+       width: 93px;
+       height: 93px;
+       background: $color-secondary;
+       border-radius: 50%;
+       object-fit: scale-down;
+       padding: 10px;
+    } 
+    }
+    &-title {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 12px;
+    }
+    .swiper-pagination {
+        position: static;
+    }
+}
