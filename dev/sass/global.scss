@@ -429,7 +429,7 @@ ul {
 // }
 
 section {
-    padding: 0px 0 $section-margin-lg;
+    padding: 0px 0 101px;
     margin-bottom: 100px;
 
     &.accent {
@@ -442,8 +442,8 @@ section {
             transform: translate(-50%, 0);
             max-width: 1820px;
             width: calc(100% - 30px);
-            top: -100px;
-            bottom: 0;
+            top: -90px;
+            bottom: 22px;
             z-index: -1;
             border-radius: 20px;
             background-color: $bg-secondary;
@@ -477,9 +477,11 @@ section {
         height: 2px;
         background-color: $color-secondary;
         left: 50%;
-        bottom: 29px;
+        bottom: 30px;
         transform: translate(-50%, 0);
+      
     }
+    
 
     h2 {
         font-size: 36px;

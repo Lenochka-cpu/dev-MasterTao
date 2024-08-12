@@ -1,12 +1,26 @@
 @media screen and (max-width: 1024px) {
+    section {
+        padding: 55px 0 60px;
+      
+        &.accent {
+            &:before {
+                width: 100%;
+                border-radius: 0;  
+                margin-top: -9px;  
+                margin-bottom: 41px;
+            }
+        }
+    
+  
     .container {
         padding: 0 20px;
         // text-align: center  ;
     }
+}
   header {
     .container {
         padding-top: 17px;
-        padding-bottom: 12px;
+        padding-bottom: 8px;
         background-color: #282b38;
         text-align: center;
 
@@ -63,18 +77,21 @@
         background-color: transparent;
     }
 
-
+    .banner.container-xxl {
+        margin-left: 5px;
+        margin-bottom: 31px;
+    }
    .banner {
         padding: 0;
     .container {
-        padding-bottom: 50px;
         display:flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 12px;
     }
 
    &-slider {
-        height: calc(100vh - 74px);
+        height: calc(100vh + -14px);
         border-radius: 0;
     }
     .swiper-slide {
@@ -115,7 +132,8 @@
 
    .template-title{
        margin-bottom: 20px;
-
+       margin-top: -29px;
+    
        h2 {
       font-size: 24px;
        }
@@ -132,9 +150,32 @@
 
    }
 }
-section {
-      margin-bottom: 57px;
+
+.template-title.case {
+    padding-right: 0;
+    padding-bottom: 45px;
+    h2{
+        margin-bottom: -25px;
+        font-size: 24px;
+    }   
+    
+    h3 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &::after {
+        margin-left: 0;
+        margin-bottom: -37px;
+    }
 }
+
+.advantage {
+    max-width: 263px;
+    width: 100%;
+    text-align: center;
+    margin: 22px 0 -97px 0;
+}
+
 
 
 

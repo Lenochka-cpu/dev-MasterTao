@@ -4,17 +4,20 @@
   }
 }
 
-.template-title .case{
-    padding-top: 50px;
+.template-title.case{
+    padding-right: 70px;
     h2{
-        margin-bottom: -4px;
+        margin-bottom: -3px;
+    }
+    &::after {
+        margin-left: -34px;
     }
 }
 .advantage {
     max-width: 263px;
     width: 100%;
     text-align: center;
-    margin: 0 auto;
+    margin: 22px 0px -97px -30px;
 } 
 .advantages {
     &-img {
@@ -40,9 +43,10 @@
     font-size: 18px;
     font-weight: 400;
     margin: 0;
-    padding: 0 12px;
+    padding: 0;
     }
     .swiper-pagination {
         position: static;
+        margin-top: 38px;
     }
 }
