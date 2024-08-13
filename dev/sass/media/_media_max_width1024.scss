@@ -7,7 +7,7 @@
                 width: 100%;
                 border-radius: 0;  
                 margin-top: -9px;  
-                margin-bottom: -22px;
+             
             }
         }
     
@@ -91,7 +91,7 @@
     }
 
    &-slider {
-        height: calc(100vh + -14px);
+        height: calc(100vh - 70px);
         border-radius: 0;
     }
     .swiper-slide {
@@ -122,6 +122,7 @@
     }
    }   
   }
+  
     .calculation-form {
        margin: 0 auto;
    }
