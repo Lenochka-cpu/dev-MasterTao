@@ -110,3 +110,45 @@ const swiperAdvantages = new Swiper('#advantages', {
    }
   }
 });
+
+const swiperTemplate = new Swiper('.slider-template', {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  navigation: {
+    enabled: false
+  },
+   
+     pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+       enabled: true, 
+     },
+
+  breakpoints: {
+    1025: {
+        slidesPerView: 2,
+        pagination: {
+          enabled: false,
+          el: '.swiper-pagination',
+        },
+        navigation: {
+          enabled: true,
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+    },
+    1140: {
+        slidesPerView: 3,
+        navigation: {
+          enabled: true,
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          enabled: false,
+          el: '.swiper-pagination',
+        },
+      }
+   }
+});
