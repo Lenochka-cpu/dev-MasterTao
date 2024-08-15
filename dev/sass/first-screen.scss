@@ -12,7 +12,7 @@
     .btn {
       padding: 20px 31px;
     } 
-
+ 
 }
 .banner.container-xxl {
   margin-left: 40px;
@@ -69,10 +69,11 @@
   justify-content: space-between;
   height: 0;
 }
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev, 
+.swiper-button-next {
   position: static;
   color: #fff;
-  width: 40px;
+  width: 96px;
   &:hover {
   color: $color-secondary;
   }

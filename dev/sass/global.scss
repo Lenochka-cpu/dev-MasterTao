@@ -110,6 +110,11 @@ ul {
     margin-right: auto;
     margin-left: auto;
 }
+.container-lg {
+    @extend .container;
+    max-width: 1323px;
+  
+}
 
 .container-xxl {
     max-width: 1844px;

@@ -152,3 +152,10 @@ const swiperTemplate = new Swiper('.slider-template', {
       }
    }
 });
+
+const sliderTemplate = document.querySelectorAll('.slider-template')
+
+sliderTemplate.forEach(slider => {
+  slider.closest('.container').classList.add('container-lg')
+  slider.closest('.container').classList.remove('container')
+})
