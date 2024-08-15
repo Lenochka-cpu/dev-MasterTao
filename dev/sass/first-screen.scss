@@ -17,6 +17,8 @@
 .banner.container-xxl {
   margin-left: 40px;
   margin-top: -4px;
+
+  
 }
 
 .swiper-slide {
@@ -71,10 +73,18 @@
 }
 .swiper-button-prev, 
 .swiper-button-next {
-  position: static;
+  position: absolute;
   color: #fff;
   width: 96px;
   &:hover {
   color: $color-secondary;
   }
+}
+
+.swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, -31px);
+    right: auto;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, -29px);
 }
