@@ -139,7 +139,7 @@ const swiperTemplate = new Swiper('.slider-template', {
         },
     },
     1140: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         navigation: {
           enabled: true,
           nextEl: '.swiper-button-next',
@@ -149,6 +149,19 @@ const swiperTemplate = new Swiper('.slider-template', {
           enabled: false,
           el: '.swiper-pagination',
         },
+      },
+        1300: {
+          slidesPerView: 3,
+          navigation: {
+            enabled: true,
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {
+            enabled: false,
+            el: '.swiper-pagination',
+          },
+
       }
    }
 });

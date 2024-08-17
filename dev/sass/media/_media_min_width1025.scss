@@ -7,11 +7,44 @@
 .advantages {
     .swiper-wrapper {
         flex-wrap: wrap;
-        gap: 63px 0;
+        gap: 51px 0;
     }
     .swiper-slide {
         max-width: 25%;
     }
 }
+.slider-template {
+    padding-left: 96px;
+    padding-right: 88px;
+    margin-top: 13px;
+    .swiper-slide {
+        padding: 0;
+        margin-right: 34px;
+    }
+
+    &::after,
+    &::before  {
+        content: "";
+        width: 92px;
+        height: 100%;
+        position: absolute;
+        right: -15px;
+        top: 0;
+        background-color: $bg-primary;
+        z-index: 2;
+    }
+    &::before {
+        right: auto;
+        left: -15px;
+    }
+
+   
+
+}
+
+
+
+
+
 
 }

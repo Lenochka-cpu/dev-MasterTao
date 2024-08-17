@@ -183,9 +183,23 @@
     margin: 30px 0 -97px 0;
 }
 
+.slider-template {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 335px;
+  }
+.card {
+    width: 335px;
+    padding: 0 23px 33px;
 
+   .btn-row {
+     gap: 12px;
 
-
+    .btn {
+        padding: 13px 8px;
+      }
+     }
+    }
 
 
 }

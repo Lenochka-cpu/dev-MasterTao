@@ -1,7 +1,8 @@
 .banner {
   .container {
-    padding-bottom: 60px;
-    
+    padding-bottom: 95px;
+    padding-left: 25px;
+   
   }
   &-slider {
     position: relative;
@@ -14,18 +15,19 @@
     } 
  
 }
-.banner.container-xxl {
-  margin-left: 40px;
-  margin-top: -4px;
+// .banner.container-xxl {
+//   margin-left: 40px;
+//   margin-top: -4px;
 
   
-}
+// }
 
 .swiper-slide {
   border-radius: 20px;
   display: flex;
   align-items: center;
-  padding: 0 68px;
+  justify-content: center;
+
   
   
 
@@ -37,7 +39,7 @@
   h5 {
     max-width: 320px;
     font-weight: 300;
-    margin-bottom: 37px;
+
   }
   }
 .swiper-pagination.swiper-pagination-clickable {
