@@ -191,6 +191,9 @@
 .card {
     width: 335px;
     padding: 0 23px 33px;
+    .img-box {
+        margin: 0 -23px 27px;
+    }
 
    .btn-row {
      gap: 12px;
