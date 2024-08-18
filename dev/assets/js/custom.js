@@ -112,7 +112,7 @@ const swiperAdvantages = new Swiper('#advantages', {
 });
 
 const swiperTemplate = new Swiper('.slider-template', {
-  slidesPerView: 1,
+  slidesPerView: 3,
   spaceBetween: 30,
   loop: true,
   navigation: {

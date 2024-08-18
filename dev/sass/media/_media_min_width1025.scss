@@ -14,12 +14,13 @@
     }
 }
 .slider-template {
-    padding-left: 96px;
-    padding-right: 88px;
+    padding-left: 92px;
+    padding-right: 92px;
     margin-top: 13px;
+
     .swiper-slide {
         padding: 0;
-        margin-right: 34px;
+        // margin-right: 34px;
     }
 
     &::after,
