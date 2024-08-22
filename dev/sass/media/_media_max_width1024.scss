@@ -90,7 +90,7 @@
         display:flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 12px;
+        margin-top: 89px;
     }
 
    &-slider {
@@ -124,7 +124,11 @@
         margin-bottom: 18px;
     }
    }   
+  
+  .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 46px;
   }
+}
   .calculation {
     margin-bottom: 30px;
   }
