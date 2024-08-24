@@ -111,59 +111,51 @@ const swiperAdvantages = new Swiper('#advantages', {
   }
 });
 
-const swiperTemplate = new Swiper('.slider-template', {
+const swiperTemplate = new Swiper(".slider-template", {
   slidesPerView: 3,
   spaceBetween: 30,
   loop: true,
   navigation: {
-    enabled: false
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
-   
-     pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-       enabled: true, 
-     },
-
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
   breakpoints: {
-    1025: {
-        slidesPerView: 2,
-        pagination: {
-          enabled: false,
-          el: '.swiper-pagination',
-        },
-        navigation: {
-          enabled: true,
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-    },
-    1140: {
-        slidesPerView: 2,
-        navigation: {
-          enabled: true,
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-          enabled: false,
-          el: '.swiper-pagination',
-        },
+    1300: {
+      // Десктоп
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        enabled: true,
       },
-        1300: {
-          slidesPerView: 3,
-          navigation: {
-            enabled: true,
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-          pagination: {
-            enabled: false,
-            el: '.swiper-pagination',
-          },
-
-      }
-   }
+      pagination: {
+        enabled: true,
+      },
+    },
+    1024: {
+      // Планшет
+      slidesPerView: 2,
+      spaceBetween: 20,
+      navigation: {
+        enabled: true,
+      },
+      pagination: {
+        enabled: true,
+      },
+    },
+    0: {
+      // Мобильное устройство
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: false, // Отключаем кнопки навигации
+      pagination: {
+        enabled: true,
+      },
+    },
+  },
 });
 
 const sliderTemplate = document.querySelectorAll('.slider-template')

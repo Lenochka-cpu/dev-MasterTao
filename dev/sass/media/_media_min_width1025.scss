@@ -6,11 +6,10 @@
 .advantages {
     .swiper-wrapper {
         flex-wrap: wrap;
-        gap: 11px 0;
-        margin-left: -48px;
+        gap: 11px;
     }
     .swiper-slide {
-        max-width: 25%;
+        max-width: 263px;
     }
 }
 .slider-template {
