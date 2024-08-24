@@ -6,11 +6,15 @@
 .advantages {
     .swiper-wrapper {
         flex-wrap: wrap;
-        gap: 11px;
+        gap: 11px 20px;
+        justify-content: space-between;
     }
     .swiper-slide {
         max-width: 263px;
     }
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none;
 }
 .slider-template {
     padding-left: 92px;
