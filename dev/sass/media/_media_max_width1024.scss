@@ -6,10 +6,9 @@
             &:before {
                 width: 100%;
                 border-radius: 0;  
-                margin-top: -82px;  
-                margin-bottom: 80px;
+                margin-top: -79px;  
                 top: -20px;
-                bottom: -7px;
+                bottom: 76px;
             }
         }
     
@@ -22,8 +21,9 @@
 }
   header {
     .container {
-        padding-top: 17px;
-        padding-bottom: 8px;
+        padding-top: 30px;
+        padding-bottom: 3px;
+        padding-left: 20px;
         background-color: #282b38;
         text-align: center;
 
@@ -81,8 +81,9 @@
     }
 
     .banner.container-xxl {
-        margin-left: 5px;
+        margin-left: 0px;
         margin-bottom: 31px;
+        padding-top: 3px;
     }
 .banner {
         padding: 0;
@@ -90,7 +91,7 @@
         display:flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 89px;
+        margin-top: 96px;
     }
 
    &-slider {
@@ -127,6 +128,7 @@
   
   .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: 46px;
+    left: 0;
   }
 }
   .calculation {
@@ -179,7 +181,9 @@
         margin-bottom: -34px;
     }
 }
-
+.section.advantages.accent {
+    margin-bottom: 0;
+}
 .advantage {
     max-width: 263px;
     width: 100%;
@@ -209,5 +213,6 @@
      }
     }
 
+ 
 
 }

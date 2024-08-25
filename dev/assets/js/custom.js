@@ -132,7 +132,7 @@ const swiperTemplate = new Swiper(".slider-template", {
         enabled: true,
       },
       pagination: {
-        enabled: true,
+        enabled: false,
       },
     },
     1024: {

@@ -3,6 +3,7 @@
     display: none;
 }
 
+
 .advantages {
     .swiper-wrapper {
         flex-wrap: wrap;
@@ -13,9 +14,7 @@
         max-width: 263px;
     }
 }
-.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-    display: none;
-}
+
 .slider-template {
     padding-left: 92px;
     padding-right: 92px;
@@ -45,6 +44,13 @@
     }
 
 }
+// .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+//        display: none;
+// }
+
+
+
+
 
 }
 
