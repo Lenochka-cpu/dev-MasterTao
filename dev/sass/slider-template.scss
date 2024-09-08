@@ -12,8 +12,9 @@
 .template-title.case-1{
     padding-right: -3px;
     h2{
-        margin-top: -50px;
+        // margin-top: -50px;
         margin-right: -14px;
+        padding-bottom: 22px;
     }
     &::after {
         margin-bottom: 6px;
@@ -25,14 +26,14 @@
     --space: 20px;
     min-width: 360px;
     background: $bg-secondary;
-    padding: 0 var(--space) 33px;
+    padding: 0 var(--space) 30px;
     color: #ffff;
     // margin-right: 34px;
     overflow: hidden;
     border-radius: 20px;
     text-align: center;
     border: none;
-
+    min-height: 482px;
 
     .img-box {
         margin: 0 calc(var(--space) * -1) 26px -19px;
@@ -95,9 +96,10 @@
 .btn-row {
     display: flex;
     gap: 14px;
-    margin-top: 5px;
+    margin-top: auto;
 
     .btn {
+        letter-spacing: 0;
        width: 50%;
        justify-content: center;
        padding: 10px;
@@ -123,4 +125,21 @@
     margin-top: 30px;
 }
 
-
+.services {
+    .card {
+        text-align: left;
+        justify-content: flex-end;
+        .btn-row {
+            margin-top: initial;
+        }
+        > * {
+            z-index: 1;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(0deg, rgba(4, 5, 17, 0.91) 0%, rgba(88, 88, 88, 0) 100%);
+        }
+    }
+}

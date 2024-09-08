@@ -110,10 +110,11 @@ ul {
     margin-right: auto;
     margin-left: auto;
 }
+
 .container-lg {
     @extend .container;
     max-width: 1354px;
-  
+
 }
 
 .container-xxl {
@@ -133,7 +134,7 @@ ul {
 }
 
 .wf-600 {
-    font-weight: 600;   
+    font-weight: 600;
 }
 
 .wf-700 {
@@ -448,7 +449,7 @@ section {
             max-width: 1820px;
             width: calc(100% - 30px);
             top: -90px;
-            bottom: 47px;
+            bottom: 17px;
             z-index: -1;
             border-radius: 20px;
             background-color: $bg-secondary;
@@ -466,7 +467,38 @@ section {
     }
 }
 
+.swiper-pagination.swiper-pagination-clickable {
+    .swiper-pagination-bullet {
+        border: 2px solid #fff;
+        margin: 0;
+        opacity: 1;
+        background-color: transparent;
+    }
 
+    .swiper-pagination-bullet-active {
+        background-color: #fff;
+    }
+}
+
+.navigation {
+    position: absolute;
+    max-width: 1514px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    height: 0;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+}
 
 
 .template-title {
@@ -484,9 +516,9 @@ section {
         left: 50%;
         bottom: 30px;
         transform: translate(-50%, 0);
-      
+
     }
-    
+
 
     h2 {
         font-size: 36px;
@@ -497,11 +529,12 @@ section {
     h3 {
         font-size: 24px;
         font-weight: 300;
-        
+
     }
 
     &.text-left {
         text-align: left;
+
         &:after {
             left: 0;
             transform: translate(0, 0);
@@ -512,9 +545,11 @@ section {
         max-width: 620px;
         width: 100%;
         text-align: center;
-        &::after{
+
+        &::after {
             display: none;
         }
+
         h2:after {
             content: "";
             display: inline-block;
@@ -564,7 +599,31 @@ section {
     }
 }
 
+img {
+    --img-margin: 30px;
+    &.alignleft,
+    &.alignright {
+        max-width: calc(50% - var(--img-margin));
+    }
 
+    &.alignleft {
+        margin: 0 var(--img-margin) 25px 0;
+        float: left;
+    }
+
+    &.alignright {
+        margin: 0 0 25px var(--img-margin);
+        float: right;
+    }
+
+    &.aligncenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: var(--img-margin);
+        max-width: 100%;
+    }
+}
 
 
 

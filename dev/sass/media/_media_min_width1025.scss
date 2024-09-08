@@ -5,13 +5,21 @@
 
 
 .advantages {
+    margin-bottom: 85px;
+
     .swiper-wrapper {
         flex-wrap: wrap;
-        gap: 11px 20px;
+        gap: 47px 20px;
         justify-content: space-between;
     }
     .swiper-slide {
         max-width: 263px;
+    }
+}
+
+.delivery {
+    .template-title.case-1 h2 {
+        padding-bottom: 0;
     }
 }
 
