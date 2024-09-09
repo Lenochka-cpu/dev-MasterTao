@@ -3,3 +3,59 @@
 //     background: $secondary-color;
 //     margin-top: auto;
 // }
+footer {
+.container {
+    display: flex;
+    padding-top: 28px;
+    padding-bottom: 38px;
+    padding-left: 32px;
+    z-index: 9;
+}
+
+.position-item {
+    width: 1140px;
+    color: #E58D35;
+    border: solid 1px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+    .container-info {
+    
+    margin-left: auto;
+    margin-right: auto;
+    color: #85899C;
+    }
+    .logo {
+        img{
+        margin-bottom: 25px;
+       }
+    }
+    h4 {
+        color: #ffff;
+        margin-bottom: 15px;
+    }
+}
+
+	// nav {
+	// 	display: flex;
+	// 	align-items: center;
+	// 	gap: 45px;
+	// 	margin: 5px auto 0;
+
+	// 	a {
+	// 		font-weight: 400;
+	// 		color: #fff;
+	// 		font-size: 16px;
+	// 		line-height: 23.36px;
+	// 		text-decoration: none;
+
+    //         &:hover {
+	//            color: $color-primary;
+    //        }
+	// 	}
+	//  }
+    
+//    }
