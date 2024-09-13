@@ -14,7 +14,7 @@
 
         .container {
             padding: 0 20px;
-            margin-bottom: 61px;
+            margin-bottom: 50px;
 
         }
     }
@@ -99,13 +99,13 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 64px;
+            margin-top: 39px;
         }
 
         &-slider {
             height: calc(100vh - 70px);
             border-radius: 0;
-            padding-bottom: 5px;
+            padding-bottom: 17px;
         }
         
 
@@ -140,7 +140,7 @@
         }
 
         .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-            bottom: 46px;
+            bottom: 59px;
             left: 0;
         }
     }
@@ -148,7 +148,7 @@
     .calculation {
         margin-bottom: 30px;
         .container {
-            bottom: 8px;
+            bottom: 21px;
         }
     }
 
@@ -206,16 +206,15 @@
         }
     }
 
-    section.advantages.accent {
+    .advantages.accent {
         margin-bottom: 0;
         padding-bottom: 40px;
-       
+        .swiper-pagination {
+            margin-bottom: 10px;
+        }
     }
-    .advantages.accent {
-        .container {
-        bottom: 5px;
-       }
-    }
+   
+    
     .advantage {
         max-width: 263px;
         width: 100%;
@@ -259,10 +258,10 @@
         padding-top: 30px;
         margin-bottom: 0;
         .swiper-wrapper {
-            margin-bottom: 12px;
+            margin-bottom: 22px;
         }
         .swiper-pagination {
-            bottom: -3px;
+            bottom: 7px;
             
         }
         .card {
