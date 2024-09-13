@@ -1,21 +1,20 @@
 section.services.accent:before {
-        bottom: 0;
+        bottom: 36px;
         margin-left: 8px;
 }
 .template-title.case-2 {
     h2 {
-        padding-left: 11px;
+        padding-left: 18px;
     }
    &::after {
-    left: 665px;
-    bottom: 38px;
+    margin-left: 9px;
+    margin-bottom: 3px;
    }
 }
 section.services.accent {
 .slider-template {
-    margin-top: 20px;
     .card .card-title {   
-    margin-bottom: -15px;
+    margin-bottom: 0;
     margin-left: 11px;
     h3 {
     font-weight: 700;
@@ -27,8 +26,9 @@ section.services.accent {
 }
 }
     p.card-description {
-        margin-top: 30px;
-        margin-bottom:-8px;
+        margin-top: 9px;
+        margin-left: 17px;
+        margin-bottom: 0;
         font-weight: 400;
         font-size: 15px;
         line-height: 18.68px;

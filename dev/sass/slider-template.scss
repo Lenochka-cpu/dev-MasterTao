@@ -1,18 +1,21 @@
 .accent {
     .slider-template {
+        padding-bottom: 5px;
         &::after,
         &::before {
             background-color: $bg-secondary;
         }
     }
 }
-section.delivery {
-padding-bottom: 92px;
+.delivery {
+.slider-template{
+    margin-top: 13px;
+}
 }
 .template-title.case-1{
     padding-right: -3px;
     h2{
-        // margin-top: -50px;
+        margin-top: -50px;
         margin-right: -14px;
         padding-bottom: 22px;
     }
@@ -28,7 +31,7 @@ padding-bottom: 92px;
     background: $bg-secondary;
     padding: 0 var(--space) 30px;
     color: #ffff;
-    // margin-right: 34px;
+    margin-right: 34px;
     overflow: hidden;
     border-radius: 20px;
     text-align: center;
@@ -47,7 +50,7 @@ padding-bottom: 92px;
     .card-title {
         margin-bottom: 8px;
         font-size: 22px;
-        margin-top: 5px;
+        margin-top: 3px;
     }
     .options-list {
         display: flex;
@@ -99,7 +102,7 @@ padding-bottom: 92px;
     margin-top: auto;
 
     .btn {
-        letter-spacing: 0;
+       letter-spacing: 0;
        width: 50%;
        justify-content: center;
        padding: 10px;
@@ -127,6 +130,8 @@ padding-bottom: 92px;
 
 .services {
     .card {
+        box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.25);
+        background: linear-gradient(157deg, #F7F7F7 0%, #363a4d 100%);
         text-align: left;
         justify-content: flex-end;
         .btn-row {
@@ -140,6 +145,10 @@ padding-bottom: 92px;
             position: absolute;
             inset: 0;
             background: linear-gradient(0deg, rgba(4, 5, 17, 0.91) 0%, rgba(88, 88, 88, 0) 100%);
+ 
+            
+
         }
     }
 }
+

@@ -5,19 +5,21 @@
 
 
 .advantages {
-    margin-bottom: 85px;
+    margin-bottom: 137px;
 
     .swiper-wrapper {
         flex-wrap: wrap;
         gap: 47px 20px;
         justify-content: space-between;
+        left: 8px;
     }
     .swiper-slide {
         max-width: 263px;
     }
 }
 
-.delivery {
+section.delivery {
+    padding-bottom: 56px;
     .template-title.case-1 h2 {
         padding-bottom: 0;
     }
@@ -26,9 +28,9 @@
 .slider-template {
     padding-left: 92px;
     padding-right: 92px;
-    margin-top: 13px;
+    margin-top: 23px;
     margin-left: 8px;
-   
+    margin-bottom: 35px;
 
     .swiper-slide {
         padding: 0;
@@ -55,7 +57,9 @@
 // .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
 //        display: none;
 // }
-
+.services.slider-template {
+      margin-top: 4px;
+}
 
 
 

@@ -6,16 +6,15 @@
             &:before {
                 width: 100%;
                 border-radius: 0;
-                margin-top: -79px;
-                top: -20px;
-                bottom: 53px;
+                margin-bottom: 24px;
+                margin-top: -11px;
             }
         }
 
 
         .container {
             padding: 0 20px;
-            margin-bottom: 72px;
+            margin-bottom: 61px;
 
         }
     }
@@ -90,7 +89,7 @@
     .banner.container-xxl {
         margin-left: 0px;
         margin-bottom: 31px;
-        padding-top: 3px;
+        padding-top: 0;
     }
 
     .banner {
@@ -100,13 +99,15 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 86px;
+            margin-top: 64px;
         }
 
         &-slider {
             height: calc(100vh - 70px);
             border-radius: 0;
+            padding-bottom: 5px;
         }
+        
 
         .swiper-slide {
             border-radius: 0;
@@ -146,6 +147,9 @@
 
     .calculation {
         margin-bottom: 30px;
+        .container {
+            bottom: 8px;
+        }
     }
 
     .calculation-form {
@@ -205,14 +209,22 @@
     section.advantages.accent {
         margin-bottom: 0;
         padding-bottom: 40px;
+       
     }
-
+    .advantages.accent {
+        .container {
+        bottom: 5px;
+       }
+    }
     .advantage {
         max-width: 263px;
         width: 100%;
         text-align: center;
         // margin: 30px 0 -97px 0;
         margin: 0 auto;
+        .advantages-img {
+            margin-bottom: 27px;
+        }
     }
 
     .slider-template {
@@ -224,36 +236,107 @@
     .card {
         min-width: 335px;
         width: 335px;
-        padding: 0 23px 33px;
+        padding: 0 23px 29px;
 
         .img-box {
             margin: 0 -23px 27px;
         }
-
+    b {
+        margin-bottom: 2px;
+    }
         .btn-row {
             gap: 12px;
 
             .btn {
                 padding: 13px 8px;
+                margin-top: 5px;
             }
         }
     }
 
     section.delivery {
-        padding-top: 28px;
+        padding-bottom: 0px;
+        padding-top: 30px;
         margin-bottom: 0;
+        .swiper-wrapper {
+            margin-bottom: 12px;
+        }
+        .swiper-pagination {
+            bottom: -3px;
+            
+        }
+        .card {
+        .btn-row {
+            margin-top: -6px;
+        }
     }
+    }
+    
 
     .template-title.case-1 {
         padding-right: 15px;
-        padding-bottom: 30px;
+        padding-bottom: 49px;
         margin-bottom: 0;
+        h2 {
+            margin-left: 4px;
+            margin-top: 11px;
+        }
 
         &::after {
-            margin-bottom: 3px;
+            margin-bottom: 22px;
             margin-left: 0px;
         }
     }
+
+.delivery .slider-template {
+    bottom: 33px;
+}
+section.services.accent {
+    padding-bottom: 19px;
+    padding-top: 50px;
+}
+.services.accent {
+    .container {
+    margin-bottom: 69px;
+    }
+    &:before {
+        margin-top: 58px;
+        margin-bottom: 8px;
+    }
+    .swiper-pagination {
+        margin-bottom: 3px;
+    }
+    .card-title {
+        margin-bottom: 0;
+        margin-left: 8px!important;
+    }
+    p.card-description {
+        margin-bottom: -27px;
+        margin-left: 8px;
+        padding-bottom: 0;
+    }
+    .card .btn-row .btn {
+        margin-bottom: 4px;
+    }
+}
+
+ 
+    .template-title.case-2 {
+    h2 {
+        padding-left: 0;
+    }
+   &::after {
+    margin-left: 0;
+    margin-bottom: 2px;
+   }
+  }
+
+.services.accent {
+   .slider-template {
+     margin-top: -16px;
+     padding-bottom: 53px;
+    }
+}
 
 
 
