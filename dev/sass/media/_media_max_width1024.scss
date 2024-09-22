@@ -21,7 +21,7 @@
 
     header {
         .container {
-            padding-top: 18px;
+            padding-top: 10px;
             padding-bottom: 3px;
             padding-left: 20px;
             background-color: #282b38;
@@ -88,7 +88,7 @@
 
     .banner.container-xxl {
         margin-left: 0px;
-        margin-bottom: 31px;
+        margin-bottom: 47px;
         padding-top: 0;
     }
 
@@ -99,13 +99,12 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 39px;
+            margin-top: 57px;
         }
 
         &-slider {
-            height: calc(100vh - 70px);
+            height: calc(100vh - 74px);
             border-radius: 0;
-            padding-bottom: 17px;
         }
         
 
@@ -140,7 +139,7 @@
         }
 
         .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-            bottom: 59px;
+            bottom: 41px;
             left: 0;
         }
     }
