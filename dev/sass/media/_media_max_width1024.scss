@@ -290,8 +290,9 @@
     bottom: 33px;
 }
 section.services.accent {
-    padding-bottom: 19px;
+    padding-bottom: 33px;
     padding-top: 50px;
+    margin-bottom: -30px;
 }
 .services.accent {
     .container {
@@ -338,4 +339,35 @@ section.services.accent {
 
 
 
+.company {
+.container {
+.template-title {
+   &.text-left {
+    text-align: center;
+    padding-bottom: 25px;
+   }
+   &:after {
+    display: block;
+    margin-left: 126px;
+    margin-bottom: -26px;
+   }
+}
+.img-box .alignright {
+    max-width: 278px;
+    max-height: 308px;
+    margin-top: 29px;
+    margin-right: 24px;
+    padding-bottom: 14px;
+}
+
+
+.info {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    }
+}
+
+}
 }

@@ -62,7 +62,26 @@ section.delivery {
       margin-top: 4px;
 }
 
-
+.company {
+.container {
+.template-title{
+&.text-left {
+    &::after {
+        margin-bottom: 8px;
+        margin-left: 2px;
+    }
+}
+}
+.img-box .alignright {
+    position: absolute;
+    display: flex;
+    margin-top: -469px;
+    max-width: 550px;
+    min-height: 326px;
+    margin-left: 589px;
+}
+}
+}
 
 
 }
