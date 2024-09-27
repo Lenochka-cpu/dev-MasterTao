@@ -341,7 +341,7 @@ section.services.accent {
 
 .company {
 .container {
-.template-title {
+   .template-title {
    &.text-left {
     text-align: center;
     padding-bottom: 25px;
@@ -351,23 +351,24 @@ section.services.accent {
     margin-left: 126px;
     margin-bottom: -26px;
    }
-}
-.img-box .alignright {
-    max-width: 278px;
-    max-height: 308px;
-    margin-top: 29px;
-    margin-right: 24px;
-    padding-bottom: 14px;
-}
-
-
-.info {
+   }
+   .info {
     font-weight: 300;
     font-size: 16px;
     line-height: 150%;
     text-align: justify;
     }
-}
+    .img-box, .img {
+        max-width: 278px;
+        max-height: 308px;
+        margin-top: 22px;
+        margin-left: 17px;
+        
+    }
+  }
+  }
 
-}
+
+
+
 }

@@ -65,25 +65,21 @@ section.delivery {
 .company {
 .container {
 .template-title{
-&.text-left {
+    &.text-left {
     &::after {
         margin-bottom: 8px;
         margin-left: 2px;
     }
-}
-}
-.img-box .alignright {
-    position: absolute;
-    display: flex;
-    margin-top: -469px;
-    max-width: 550px;
-    min-height: 326px;
-    margin-left: 589px;
-}
-}
-}
-
-
+    }
+    }
+    .img-box {
+        position: absolute;
+        max-width: 550px;
+        min-height: 326px;
+        bottom: -129px;
+        left: 607px;
+        }
+   }
 }
 
 
@@ -92,3 +88,4 @@ section.delivery {
 
 
 
+}
