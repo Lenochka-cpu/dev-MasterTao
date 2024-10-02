@@ -1,5 +1,12 @@
-section .accordion {
+section.accordion {
     margin-bottom: 20px;
+    .template-title {
+        margin-left: 22px;
+    
+    &::after {
+        top: 62px;
+    }
+    }
 }
 .bootstrap-page .container {
     max-width: 716px;
@@ -46,6 +53,9 @@ section .accordion {
 }
 .accordion-item {
     border: 1px solid #3A444E;
+    border-radius: 10px;
+  
+    
 }
 .accordion-item:first-of-type > .accordion-header .accordion-button {
     border-top-left-radius: 0;
@@ -92,4 +102,56 @@ section .accordion {
 
 .accordion-body {
     padding-bottom: 67px;
+}
+.accordion .faq-form {
+    padding: 33px 40px 33px;
+    background: #363A4D;
+    border-radius: 20px;
+    min-width: 390px;
+    width: 100%;
+    height: 553px;
+    margin-left: 8px;
+}
+.accordion .faq-form .form-column .input-box.label {
+    font-weight: 700;
+    font-size: 24px;
+}
+.row .col-lg-4 {
+.faq-form {
+    width: 390px;
+    height: 553px;
+    margin-left: -11px;
+    margin-top: 11px;
+    h3 {
+        margin-bottom: 8px;
+        margin-top: 4px;
+    }
+    p {
+        margin-bottom: -1px;
+   
+    }
+}
+.form {
+
+    .input-box {
+        width: 310px;
+        height: 56px;
+        margin-bottom: 13px;
+    
+    }
+    .input-box-1 {
+       margin-bottom: 64px;
+       input#text {
+        height: 70px;
+    }
+    }
+    .btn.btn-primary.btn-lg{
+            height: 68px;
+            width: 310px;
+        }
+    .btn-lg .icon {
+            margin-left: 75px;
+            padding-left: 22px;
+        }
+    }
 }
