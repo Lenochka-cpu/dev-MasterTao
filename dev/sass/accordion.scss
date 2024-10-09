@@ -54,25 +54,23 @@ section.accordion {
 .accordion-item {
     border: 1px solid #3A444E;
     border-radius: 10px;
-  
+    margin-bottom: 18px;
+    background: #282B38;
     
 }
 .accordion-item:first-of-type > .accordion-header .accordion-button {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
-.accordion-item:last-of-type > .accordion-header .accordion-button.collapsed, 
-.accordion-item:last-of-type > .accordion-collapse {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
 .accordion-button {
     font-size: 24px;
     padding: 21px 19px 21px 34px;
+   
+
 }
 .accordion-button span{
     padding-right: 35px;
+    
 }
 .accordion-button:focus {
     box-shadow: none;
@@ -100,9 +98,7 @@ section.accordion {
     outline: none;
 }
 
-.accordion-body {
-    padding-bottom: 67px;
-}
+
 .accordion .faq-form {
     padding: 33px 40px 33px;
     background: #363A4D;
