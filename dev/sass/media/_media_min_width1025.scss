@@ -84,8 +84,81 @@ section.company {
    }
 }
 
+.accordion {
+    .container {
+    .accordion-item {
+        font-size: 18px;
+        font-weight: 700;
+        border: 1px solid #3A444E;
+        border-radius: 10px;
+        background: #282B38;
+        overflow: hidden;  
+        margin-left: -6px;
+        margin-right: 20px;  
+    }
+    .accordion-button {
+        padding: 8px 18px 8px 34px;
+    }
+    .accordion-body {
+        font-size: 17px;
+        line-height: 1.5;
+        font-weight: 300;
+        background-color: #ffff;
+        color: #282B38;
+        padding: 1px 100px 16px 31px;
+        margin-top: -4px;
+        margin-right: -16px;        
+    }
+ 
+        .faq-form {
+            padding: 33px 40px 33px;
+                background: #363A4D;
+                border-radius: 20px;
+                min-width: 390px;
+                width: 100%;
+                height: 553px;
+                margin-left: -11px;
+                margin-top: 9px;
+            h3 {
+                margin-bottom: 8px;
+                margin-top: 4px;
+            }
+            p {
+                margin-bottom: -1px;
+           
+            }
+        }
+
+        .form {
+
+            .input-box {
+                width: 310px;
+                height: 56px;
+                margin-bottom: 13px;
+            
+            }
+            .input-box-1 {
+               margin-bottom: 64px;
+               input#text {
+                height: 70px;
+            }
+            }
+            .btn.btn-primary.btn-lg{
+                    height: 68px;
+                    width: 310px;
+                }
+            .btn-lg .icon {
+                    margin-left: 75px;
+                    padding-left: 22px;
+                }
+            }
+    
 
 
+
+
+}
+}
 
 
 
