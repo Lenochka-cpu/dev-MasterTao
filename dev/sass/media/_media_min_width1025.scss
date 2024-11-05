@@ -152,15 +152,116 @@ section.company {
                     padding-left: 22px;
                 }
             }
+
+}
+}
+
+section.content.accent {
+    margin-top: 91px;
+    margin-left: 20px;
+    margin-bottom: 37px;
+    padding-bottom: 20px;
+    &::before {
+        margin-bottom: -127px;
+    }
+    .container {
+    .template-title{
+    &::after {
+        margin-bottom: 6px;
+    }
+    }
+    p {
+        font-weight: 300;
+        font-size: 17px;
+        margin-top: 53px;
+    }
+    .information-1 {
+        margin-bottom: 65px;
+        .info-1,
+        .info-2,
+        .info-3 {
+            width: 528px;
+        }
+        .info-1 {
+            margin-right: 5px;
+        }
+        .info-2 {
+            margin-top: -21px;
+        }
+        .info-3 {
+            margin-top: -20px;
+        }
+   .img-1 img.alignright {
+        height: 485px;
+        width: 632px;
+        --img-margin: 0;
+        margin-top: -26px;
+        margin-right: -44px;
+    }
+    }
+    .information-2 {
+        padding-right: 14px;
+        .info-4 {
+           p {
+        margin-top: 78px;
+            }
+            margin-top: 4px;
+           
+        }
+        .info-5 {
+            margin-top: -20px;
+        }
+   
+    .img-2 img.alignleft {
+        height: 490px;
+        width: 632px;
+        --img-margin: 0;
+        margin-top: -50px;
+        margin-left: -32px;
+    }
+   
+        button.btn.btn-primary.btn-lg {
+        margin-top: -6px;
+        }
+
+    }
+
+    }
+    }
+
     
-
-
-
-
+footer {
+    .container-info-1 {
+    margin-left: -7px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 9.75px;
+}
+    .container-info-2 {
+        margin-left: 105px;
+        margin-top: -4px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.75px;
+}
+    .container-info-3 {
+    margin-left: 81px;
+    margin-top: -4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.75px;
+}
+    .container-info-4 {
+    margin-left: 99px;
+    margin-top: -4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.75px;
 }
 }
 
 
 
-
 }
+
+
