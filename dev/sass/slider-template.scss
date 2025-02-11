@@ -121,7 +121,10 @@
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
     right: var(--swiper-navigation-sides-offset, 6px);
 }
-
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    color: $text-color;
+}
 }
 .swiper-paginatiion {
     position: static;
